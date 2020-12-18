@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--/*Personal Web Page v1.0*/-->
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!--/*-- Libs --*/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--<link href='https://fonts.googleapis.com/css?family=Reenie Beanie' rel='stylesheet'>-->
+        <!--<link href='https://fonts.googleapis.com/css?family=Mako' rel='stylesheet'>-->
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <link rel= "stylesheet" href="styles.css">
+
+        <title>  MPdeM -Projects</title>
+
+    </head>
+    <body>
+        <div id ="page-wrap">
+        <nav class = "navbar navbar-expand-lg navbar-light fixed-top">
+            <a class = "navbar-brand" href= "index.html"> MPdeM </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="projects.html">projects-coding</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="publications.html">publications-research</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            featured projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://github.com/MPdeM/imaging_diagnosis">Imaging Diagnosis</a>
+                            <a class="dropdown-item" href="https://github.com/MPdeM/NLP_JobPostings">NPL - fake job posting</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="resume.html">resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class = "container-fluid">
+            <div class = "row topBanner">
+                <div class = "col-md-12 text-center">
+                    <h2> Projects</h2>
+                    <p><em> These are some of the projects that I have done (I will keep adding them) </em></p>
+                </div>
+            </div>
+        </div>
+        <div class = "row mainBar"> <div class = "col-md-12"><h3> SQL </h3></p></div> </div>
+            <div class ="col-md-12" id = "cent">
+                <ul>
+                    <li>
+                        <h5> SQL Employee Database</h5>
+                        <p> Here I am using SQL to inspect several aspects of a database containing HP employee information using PostgreSQL from several csv datasets.</p>
+                        <p> The project incorporates three aspects:
+                        <ul>
+                            <li>data modeling and engineering using  ntity relationship diagrams (ERD) 'quickdatabasediagrams'</li>
+                            <li>data analysis using SQL (PostgreSQL) and python (Nympy)</li>
+                            <li>data visualization using Matplotlib</li>
+                        </ul>
+                      </p>
+                         <a href = "https://github.com/MPdeM/SQL-Employee-Database-" class="btn btn-primary" target = "_blank"> Github </a>
+                    </li>
+                </ul>
+            </div>
+
+         <div class = "row mainBar"> <div class = "col-md-12"><h3> Deep Learning </h3></p></div> </div>
+            <div class ="col-md-12" id = "cent">
+                <ul>
+                    <li>
+                        <h5> Covid X-Ray image classification </h5>
+                        <p> Deep learning techniques for image analysis and classification can be used on X-ray images to spot anomalies and aid healthcare personnel in the diagnosis.
+                        Based on publicly available data of Covid-19 positive and normals
+                        this model was able to properly predict the risk of Covid-19 on a X-ray image.</p>
+                        <p> The project incorporates:
+                        <ul>
+                            <li>data selection from Kaggle and other sources </li>
+                            <li>data inspection - actually a really important part </li>
+                            <li>data processing: dataset construction, preprocessing (color and shape), normalization, and buil the train and tests sets</li>
+                            <li>data modeling: CNN using KerasTensor Flow in CoLab</li>
+                            <li>data validation and Prediction</li>
+                            <li>deploiment: check with real patient images </li>
+                        </ul>
+                      </p>
+                         <a href = "https://github.com/MPdeM/imaging_diagnosis" class="btn btn-primary" target = "_blank"> Github </a>
+                    </li>
+                </ul>
+            </div>
+
+        <div class = "row mainBar"> <div class = "col-md-12"><h3> NLP</h3></p></div> </div>
+            <div class ="col-md-12" id = "cent">
+                <ul>
+                    <li>
+                        <h5> Natural Language Processing : job posting </h5>
+                        <p> This project is focused on text classification which is one of the applications of supervised ML.
+                        The aim was to use nlp differentiate fraudulent job postings from real ones. We used a dataset of real and fake job postings from Kaggle</p>
+                        <p> The project incorporates the following aspects:
+                        <ul>
+                            <li>data pre-processing</li>
+                            <li>data pre-processing</li>
+                            <li>feature selection </li>
+                            <li>model validation</li>
+                            <li>data visualization: website to display results </li>
+                        </ul>
+                      </p>
+                         <a href = "https://github.com/MPdeM/NLP_JobPostings" class="btn btn-primary" target = "_blank"> Github </a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        <div class = "row mainBar"> <div class = "col-md-12"><h3> Visualization </h3></p></div> </div>
+            <div class ="col-md-12" id = "cent">
+                <ul>
+                    <li>
+                        <h5> Tableau : Bike usage analysis</h5>
+                        <p> I wanted to have fun analyzing bike usage in NY during August 2019 (prepandemic).
+                        I had lots of fun discovering what data can tell you like hourly pattenrs, gender preferences and age differences. Data IS FUN</p>
+                        <p> The project incorporates the following aspecs:
+                        <ul>
+                            <li>data inspection </li>
+                            <li>data loading </li>
+                            <li>visualization: stories , dasboards and dynalyc maps  </li>
+                        </ul>
+                      </p>
+                         <a href = "https://public.tableau.com/profile/marina.pdem#!/vizhome/CitiBike_15855327974940/citibike?publish=yes" class="btn btn-primary" target = "_blank"> Tableau </a>
+                    </li>
+                    <br>
+                    <li>
+                        <h5> COVID-19 Outbreat</h5>
+                        <p> This project aims to create a dashboard to track COVID-19 outbreak that was initially detected in Wuhan (Hubei, China), and was declared pandemic by the WHO on Wednesday 3-11-2020.</p>
+                        <p> The project incorporates the following aspecs:
+                        <ul>
+                            <li>data manipulation (ETL): extraction from Johns Hopkins, transformation using Pandas, Loading to postgreSQL using sqlalchemy </li>
+                            <li>dashboard creation: html, css and bothstrap grid using JavaScript </li>
+
+                        </ul>
+                      </p>
+                         <a href = "https://github.com/adodge88/COVID-19/blob/master/README.md" class="btn btn-primary" target = "_blank"> Github </a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        <footer id= "footer">
+            <div class= "boxfooter">
+                <div style = "display: inline-block"><a href="https://github.com/MPdeM" target="_blank" ><img src="/assets/images/gh.png" height = '40' alt=""><br>Github</a></div>
+                <div style = "display: inline-block"><a href="https://www.linkedin.com/in/marinamarinkovic/" target="_blank" ><img src="/assets/images/lk.png" height = '40' alt=""><br>LinkedIn</a></div>
+                <div style = "display: inline-block"><a href="mailto:mpmarinkovic@gmail.com" target="_blank" ><img src="/assets/images/mail.png" height = '40' alt=""><br>email</a></div>
+
+                <div class="footer-copyright text-center">© 2020 Copyright: Marina Puig-de-Morales </div>
+            </div>
+      </footer>
+
+    </div>
+    </body>
+
+</html>

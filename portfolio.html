@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--/*Personal Web Page v1.0*/-->
+
+<html lang="en">
+
+    <head>
+
+        <!--/*-- Libs --*/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--<link href='https://fonts.googleapis.com/css?family=Reenie Beanie' rel='stylesheet'>-->
+        <!--<link href='https://fonts.googleapis.com/css?family=Mako' rel='stylesheet'>-->
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <link rel= "stylesheet" href="styles.css">
+        <script type = "text/javascript">
+            function ChangeImage(){
+                var img = document.getElementById("img");
+                img.src= quotes[x];
+                x++;
+                // loop througth the images continuously
+                if (x>= quotes.length){
+                    x=0;
+                }
+            }
+            function startTimer(){
+                setInterval(ChangeImage(),1000);
+            }
+            var quotes= [], x=0;
+            quotes[0] = "/assets/images/quote2.png";
+            quotes[1] = "/assets/images/quote1.png";
+        </script>
+
+        <title>  MPdeM - Portfolio </title>
+
+
+    </head>
+    <body onload= "startTimer()">
+        <div id ="page-wrap">
+
+        <nav class = "navbar navbar-expand-lg navbar-light fixed-top">
+            <a class = "navbar-brand" href= "index.html"> MPdeM </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="projects.html">projects-coding</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="publications.html">publications-research</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            featured projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://github.com/MPdeM/imaging_diagnosis">Imaging Diagnosis</a>
+                            <a class="dropdown-item" href="https://github.com/MPdeM/NLP_JobPostings">NPL - fake job posting</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="resume.html">resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class = "container-fluid">
+            <div class = "row topBanner">
+                <div class = "col-md-12 text-center">
+                    <!--<h1> </h1>-->
+                    <p><em> avid learner who loves a challenge</em></p>
+                </div>
+            </div>
+        </div>  <!-- end top banner -->
+
+        <div class = "row mainBar">
+            <div class = "col-md-4 text-center" id= "cent">
+                <img id="img" src= "/assets/images/quote2.png">
+                <button type="button" onclick= "ChangeImage()">Next</button>
+            </div> <!-- end image -->
+
+            <div class ="col-md-8" id = "cent">
+                <h2> Portfolio</h2>
+                <hr>
+                <h2> technical projects </h2>
+                <p>coding <a href = "projects.html"> Projects -coding </a>
+                </p>
+                 <hr>
+                <h2> scientific publications </h2>
+                <p>academic research <a href = "publications.html"> Publications -research </a>
+                </p>
+                 <hr>
+                <h2> recent challenges </h2>
+                <p> During the summer I decided not only to change carrer path but to challenge myself during the process</p>
+                <ul>
+                    <li>run 6miles every day for 30 days : July-August 2020 </li>
+                    <li>4x4x48 Challenge: run 48 miles in 48 h Dec 2020 <a href = "https://www.strava.com/"> find me on Strava</a> </li>
+                    <li>CS50 : yes, it is one of the best challenges :) </li>
+                    <li>reading two books per month</li>
+                    <li>consolidate machine learning </li>
+                    <li>be patient with my kids (by far the hardest hehehe) </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <footer id= "footer">
+            <div class= "boxfooter">
+                <div style = "display: inline-block"><a href="https://github.com/MPdeM" target="_blank" ><img src="/assets/images/gh.png" height = '40' alt=""><br>Github</a></div>
+                <div style = "display: inline-block"><a href="https://www.linkedin.com/in/marinamarinkovic/" target="_blank" ><img src="/assets/images/lk.png" height = '40' alt=""><br>LinkedIn</a></div>
+                <div style = "display: inline-block"><a href="mailto:mpmarinkovic@gmail.com" target="_blank" ><img src="/assets/images/mail.png" height = '40' alt=""><br>email</a></div>
+                <div class="footer-copyright text-center">© 2020 Copyright: Marina Puig-de-Morales </div>
+            </div>
+      </footer>
+
+    </div>
+    </body>
+
+</html>

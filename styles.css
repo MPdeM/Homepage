@@ -1,0 +1,94 @@
+html{
+  padding: 25px 25px;
+  background: #2f2f2f;
+
+}
+#page-wrap{
+  background: #2f2f2f;
+  color: #bbb;
+  height: 100%;
+  font-size: 18px;
+
+}
+
+body{
+  margin:30px;
+  color: gray;
+  font-family: 'Architects+Daughter&display=swap';
+  font-size: 15px;
+}
+.navbar{
+  background: #696969;
+  border: 2px solid silver;
+}
+
+.container-fluid{
+  padding:20px;
+  margin: 25px;
+}
+
+.mainBar{
+  background: #696969;
+  text-align: left;
+  margin: 10px;
+}
+
+.mainBar em{
+  color: #ffcc66;
+  font-weight: bolder;
+}
+
+.mainBar img {
+  border: 3px;
+  /*color solid silver;*/
+  border-radius: 4px;
+  padding: 5px;
+  max-width:100%;
+  margin:5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+.card {
+    margin: 2px;
+    background: silver;
+    font-size:75%;
+    color:black;
+}
+
+.btn{
+    margin: 2px;
+    width: 25%;
+    background: #ffcc66;
+    border: none;
+    font-size: 90%;
+    color: black;
+}
+
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+#cent{
+  margin-top:auto;
+  margin-bottom: auto;
+  padding:20px;
+}
+
+#footer {
+  margin: 0px;
+  text-align: center;
+  font-size: 80%;
+  color: white;
+}
+
+#footer div{
+  margin: 20px;
+}
