@@ -81,11 +81,12 @@ p{
 #cent{
   margin-top:auto;
   margin-bottom: auto;
-  padding:50px;
+  padding:40px;
 }
+
 #centimage{
   margin-top:20px;
-  margin-bottom: auto;
+/*   margin-bottom: auto; */
   padding:5px;
 }
 #footer {
