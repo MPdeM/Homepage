@@ -1,5 +1,5 @@
 html{
-  padding: 25px 25px;
+  padding: 35px 35px;
   background: #2f2f2f;
 
 }
@@ -83,7 +83,11 @@ p{
   margin-bottom: auto;
   padding:50px;
 }
-
+#centimage{
+  margin-top:20px;
+  margin-bottom: auto;
+  padding:5px;
+}
 #footer {
   margin: 0px;
   text-align: center;
