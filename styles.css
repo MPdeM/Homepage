@@ -12,7 +12,7 @@ html{
 }
 
 body{
-  margin:30px;
+  margin:50px;
   color: gray;
 /*   font-family: 'Open Sans', sans-serif; */
   font-family: 'Architects Daughter',cursive;
@@ -24,7 +24,7 @@ body{
 }
 
 .container-fluid{
-  padding:20px;
+  padding:40px;
   margin: 25px;
 }
 
