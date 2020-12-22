@@ -14,7 +14,8 @@ html{
 body{
   margin:30px;
   color: gray;
-  font-family: 'Architects Daughter',cursive;
+  font-family: 'Open Sans', sans-serif;
+/*   font-family: 'Architects Daughter',cursive; */
   font-size: 15px;
 }
 .navbar{
@@ -70,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 p{
   margin-top: 5px;
   margin-bottom: 5px;
-  font-family: 'Open Sans', sans-serif;
+/*   font-family: 'Open Sans', sans-serif; */
 }
 
 .active {
