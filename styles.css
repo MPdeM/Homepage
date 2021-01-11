@@ -21,17 +21,20 @@ body{
 .navbar{
   background: #696969;
   border: 2px solid silver;
+  
 }
-
+.navbar-light .navbar-brand {
+  color: white;
+}
 .container-fluid{
-  padding:40px;
+  padding:0px;
   margin: 25px;
 }
 
 .mainBar{
   background: #696969;
   text-align: left;
-  margin: 40px;
+  margin: 10px;
 }
 
 .mainBar em{
