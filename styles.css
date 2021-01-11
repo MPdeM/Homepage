@@ -27,8 +27,8 @@ body{
   color: white;
 }
 .container-fluid{
-  padding:40px;
-  margin: 25px;
+  padding:5px;
+  margin: 10px;
 }
 
 .mainBar{
@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 p{
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left: 5px;
 /*   font-family: 'Open Sans', sans-serif; */
 }
 
@@ -84,7 +85,8 @@ p{
 #cent{
   margin-top:auto;
   margin-bottom: auto;
-  padding:40px;
+  margin-left: 20px;
+  padding:10px;
 }
 
 #img{ 
