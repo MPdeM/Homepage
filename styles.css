@@ -28,7 +28,7 @@ body{
 }
 .container-fluid{
   padding:0px;
-  margin: 25px;
+  margin: 10px;
 }
 
 .mainBar{
@@ -84,7 +84,7 @@ p{
 #cent{
   margin-top:auto;
   margin-bottom: auto;
-  padding:40px;
+  padding:10px;
 }
 
 #img{ 
