@@ -10,4 +10,5 @@ Basic static application consiting on:
   - resume.html: some basic stuff that can be found mostly on linkedIn
   
  First created: Dec-2020 
+ update: Jan-2021
 
