@@ -88,6 +88,12 @@ p{
   margin-left: 20px;
   padding:10px;
 }
+#centPortfolio{
+  margin-top:auto;
+  margin-bottom: auto;
+  
+  padding:10px;
+}
 
 #img{ 
   margin-top:20px;
