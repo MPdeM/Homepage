@@ -35,7 +35,7 @@
                 }
             }
             function startTimer(){
-                setInterval(ChangeImage(),1000);
+                setInterval(ChangeImage(),500);
             }
             var quotes= [], x=0;
             quotes[0] = "/assets/images/quote2.png";
@@ -96,9 +96,11 @@
 
         <div class = "row mainBar">
             <div class = "col-md-4 text-center" id= "centimage">
-                <img id="img" src= "/assets/images/quote2.png">
-                <button type="button" onclick= "ChangeImage()">Next</button>
-                <p><i>from "Limitless", by Jim Kwik</i></p>
+                <figure>
+                    <img id="img" src= "/assets/images/quote2.png">
+                    <button type="button" onclick= "ChangeImage()">Next</button>
+                    <figcaption><i>from "Limitless", by Jim Kwik</i></figcaption>
+                </figure>
             </div> <!-- end image -->
 
             <div class ="col-md-8" id = "centPortfolio">
